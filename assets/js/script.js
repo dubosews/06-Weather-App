@@ -231,7 +231,7 @@ function getCoor() {
   
   console.log(searchList);
   console.log(cityName);
-  var geoUrl = 'https://api.openweathermap.org/geo/1.0/direct?q='+cityName+',840&limit=5&appid=eab8561950e4b94c392acf01f1ed5a8c';
+  var geoUrl = 'http://api.openweathermap.org/geo/1.0/direct?q='+cityName+',840&limit=5&appid=eab8561950e4b94c392acf01f1ed5a8c';
   console.log(geoUrl);
   fetch(geoUrl)
     .then(function(response) {
