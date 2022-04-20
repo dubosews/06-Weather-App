@@ -267,7 +267,7 @@ function getCoor() {
         if(stateName[arrPosStAdj] === stateR) {
           console.log("STATE MATCH");
 
-          var weatherUrl = 'https://api.openweathermap.org/data/2.5/onecall?lat='+latR+'&lon='+lonR+'&units=imperial&appid=3f433b13a70f353fc820368ee2470526';
+          var weatherUrl = 'http://api.openweathermap.org/data/2.5/onecall?lat='+latR+'&lon='+lonR+'&units=imperial&appid=3f433b13a70f353fc820368ee2470526';
 
           fetch(weatherUrl)
             .then(function(response) {
