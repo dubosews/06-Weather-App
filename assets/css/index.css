@@ -1,0 +1,276 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    height: fit-content;
+    background-color: rgb(255, 254, 254);
+    width: 85%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border: solid rgb(3, 203, 248);
+    border-radius: 12px;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    font-size: 12pt;
+    padding: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title img {
+    margin-right: -15px;
+}
+
+.title p {
+    margin-left: 10px;
+    text-align: center;
+    margin-top: auto;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    display: block;
+    font-family: coordinates,monospace;
+    font-weight: 200;
+    font-size: 15pt;
+    color: rgb(3, 203, 248);
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.searchBtn {
+    background-color: rgb(3, 203, 248);
+    border: solid rgb(3, 203, 248);
+    border-radius: 10px;
+    font-family: coordinates,monospace;
+    font-weight: 200;
+    font-size: 10pt;
+    color: rgb(255, 255, 255);
+}
+
+.searchBtn:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(3, 203, 248);
+    border: solid rgb(3, 203, 248);
+}
+
+.search input {
+    font-family: coordinates,monospace;
+    font-weight: 200;
+    font-size: 10pt;
+    color: rgb(3, 203, 248);
+}
+
+.search input:focus {
+    outline: solid rgba(255, 255, 255, 0.404);
+    outline-width: 1px;
+    background-color: rgb(3, 203, 248);
+    color: white;
+}
+
+.cityName {
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
+    border: solid rgb(3, 203, 248);
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.stateDrop {
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: white;
+    border: solid rgb(3, 203, 248);
+    border-radius: 10px;
+    font-family: coordinates,monospace;
+    font-weight: 200;
+    font-size: 10pt;
+    color: rgb(3, 203, 248);
+}
+
+.stateDrop:focus {
+    outline: none;
+    background-color: rgb(3, 203, 248);
+    color: white;
+}
+
+.currentB {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 600px;
+    height: 500px;
+    max-width: 600px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    border: solid rgb(3, 203, 248);
+    border-radius: 30px;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.386);
+}
+
+.location {
+    font-size: 12pt;
+    margin-top: 0px;
+    border-top: solid rgb(3, 203, 248);
+}
+
+.cTemp {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255, 255, 255, 0.783);
+    width: fit-content;
+    text-align: center;
+    padding: 20px;
+    border: solid rgb(3, 203, 248);
+    border-radius: 25px;
+    color: rgb(3, 203, 248);
+    font-family: coordinates,monospace;
+    font-weight: 300;
+}
+
+.cTemp .temp {
+    font-size: 26pt;
+}
+
+.cTemp .feel {
+    font-size: 16pt;
+}
+
+.cTemp .main {
+    font-size: 20pt;
+    border-bottom: solid rgb(3, 203, 248);
+}
+
+.currentW {
+    font-family: coordinates,monospace;
+    font-weight: 200;
+    font-size: 18pt;
+    color: rgb(3, 203, 248);
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(255, 255, 255, 0.797);
+    border: solid rgb(3, 203, 248);
+    border-radius: 20px;
+}
+
+.currentWTxt {
+    margin-bottom: -5px;
+    padding-bottom: 15px;
+}
+
+.info {
+    font-family: coordinates,monospace;
+    font-weight: 200;
+    font-size: 10pt;
+    color: rgb(3, 203, 248);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(255, 255, 255, 0.797);
+    border: solid rgb(3, 203, 248);
+    border-radius: 20px;
+}
+
+.data {
+    font-family: coordinates,monospace;
+    font-weight: 200;
+    font-size: 12pt;
+    color: rgb(3, 203, 248);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: auto;
+    padding-bottom: auto;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 60%;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.797);
+    border: solid rgb(3, 203, 248);
+    border-radius: 20px;
+}
+
+.data p {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.forecast {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.forecastDay {
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    border: solid rgb(3, 203, 248);
+    border-radius: 12px;
+}
+
+.forecastDay .max {
+    font-size: 16pt;
+    border-bottom:solid rgb(3, 203, 248);
+}
+
+.forecastDay .min {
+    margin-bottom: 5px;
+}
+
+.forecastDay div {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: coordinates,monospace;
+    font-weight: 200;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
