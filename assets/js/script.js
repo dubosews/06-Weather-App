@@ -231,7 +231,7 @@ function getCoor() {
   
   console.log(searchList);
   console.log(cityName);
-  var geoUrl = 'http://api.openweathermap.org/geo/1.0/direct?q='+cityName+',840&limit=5&appid=eab8561950e4b94c392acf01f1ed5a8c';
+  var geoUrl = 'https://api.openweathermap.org/geo/1.0/direct?q='+cityName+',840&limit=5&appid=eab8561950e4b94c392acf01f1ed5a8c';
   console.log(geoUrl);
   fetch(geoUrl)
     .then(function(response) {
@@ -267,7 +267,7 @@ function getCoor() {
         if(stateName[arrPosStAdj] === stateR) {
           console.log("STATE MATCH");
 
-          var weatherUrl = 'http://api.openweathermap.org/data/2.5/onecall?lat='+latR+'&lon='+lonR+'&units=imperial&appid=3f433b13a70f353fc820368ee2470526';
+          var weatherUrl = 'https://api.openweathermap.org/data/2.5/onecall?lat='+latR+'&lon='+lonR+'&units=imperial&appid=3f433b13a70f353fc820368ee2470526';
 
           fetch(weatherUrl)
             .then(function(response) {
