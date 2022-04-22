@@ -34,8 +34,10 @@ There are no tests designed for this project.
  
 
 ## Questions
-[github icon](./github-icon-small.png)
-Github Profile: [dubosews](https://github.com/dubosews)
-Contact Email: [wsd10205@gmail.com](mailto:wsd10205@gmail.com)
-Directions for reaching out with further questions:
+<img src="./assets/img/github-icon-small.png" style="width:20px"><br>
+Github Profile: [dubosews](https://github.com/dubosews) <br>
+Contact Email: [wsd10205@gmail.com](mailto:wsd10205@gmail.com)<br>
+Directions for reaching out with further questions:<br>
+    ```
     If you would like to reach out to me with question via email, please include the repository title in the subject line of the email. 
+    ```
